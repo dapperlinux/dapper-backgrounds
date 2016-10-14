@@ -1,0 +1,25 @@
+<background>
+  <starttime>
+    <year>2016</year>
+    <month>06</month>
+    <day>07</day>
+    <hour>00</hour>
+    <minute>00</minute>
+    <second>00</second>
+  </starttime>
+<static>
+<duration>10000000000.0</duration>
+<file>
+        <!-- Ultra HD -->
+        <size width="2560" height="1440">/usr/share/backgrounds/dapperlinux/default/ultrahd/main.png</size>
+        <!-- Wide 16:9 -->
+        <size width="1920" height="1080">/usr/share/backgrounds/dapperlinux/default/tv-wide/main.png</size>
+        <!-- Standard 4:3 -->
+        <size width="1920" height="1440">/usr/share/backgrounds/dapperlinux/default/standard/main.png</size>
+        <!-- Normalish 5:4 -->
+        <size width="1280" height="1024">/usr/share/backgrounds/dapperlinux/default/normalish/main.png</size>
+</file>
+</static>
+
+</background>
+

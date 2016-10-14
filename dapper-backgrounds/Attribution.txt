@@ -1,0 +1,11 @@
+Dapper Linux Backgrounds
+========================
+
+Files: /usr/share/backgrounds/f24/default/*
+       dapper-backgrounds/*
+Name: Dapper Linux Default
+Date: 7 Oct 2016
+Authors:
+    Matthew Ruffell <msr50@uclive.ac.nz>
+    
+License: FAL-1.3

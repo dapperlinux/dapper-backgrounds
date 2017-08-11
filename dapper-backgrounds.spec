@@ -1,15 +1,15 @@
-%global relnum 25
+%global relnum 26
 %global bgname dapperlinux
 %global Bg_name DapperLinux
 
 Name:       dapper-backgrounds
-Version:    25.0
+Version:    26
 Release:    1
 Summary:    Dapper Linux Default Desktop Backgrounds
 
 License:    FAL-1.3
 URL:        https://github.com/dapperlinux/dapper-backgrounds/
-Source0:    %{name}-%{version}.tar.gz
+Source0:    %{name}-%{version}.tar.xz
 
 BuildArch:  noarch
 
@@ -108,6 +108,9 @@ make install DESTDIR=$RPM_BUILD_ROOT
 %{_datadir}/xfce4/backdrops/%{bgname}.png
 
 %changelog
+* Thu Aug 10 2017 Matthew Ruffell <msr50@uclive.ac.nz> - 26
+- Updating for F26
+
 * Fri Nov  4 2016 Matthew Ruffell <msr50@uclive.ac.nz> - 25.0-1
 - Updating for F25
 

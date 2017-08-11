@@ -20,12 +20,12 @@ Next, setup rpmbuild directories with
 ```bash
 $ rpmdev-setuptree
 ```
-And place the file dapper-backgrounds.spec in the SPECS directory, and rename the dapper-backgrounds directory to dapper-backgrounds-25.0 and compress it:
+And place the file dapper-backgrounds.spec in the SPECS directory, and rename the dapper-backgrounds directory to dapper-backgrounds-26 and compress it:
 ```bash
 $ mv dapper-backgrounds.spec ~/rpmbuild/SPECS/
-$ mv dapper-backgrounds dapper-backgrounds-25.0
-$ tar -czvf dapper-backgrounds-25.0.tar.gz dapper-backgrounds-25.0
-$ mv dapper-backgrounds-25.0.tar.gz ~/rpmbuild/SOURCES/
+$ mv dapper-backgrounds dapper-backgrounds-26
+$ tar -cJvf dapper-backgrounds-26.tar.xz dapper-backgrounds-26
+$ mv dapper-backgrounds-26.tar.xz ~/rpmbuild/SOURCES/
 ```
 
 and finally, you can build RPMs and SRPMs with:

@@ -1,9 +1,9 @@
-%global relnum 28
+%global relnum 29
 %global bgname dapperlinux
 %global Bg_name DapperLinux
 
 Name:       dapper-backgrounds
-Version:    28
+Version:    29
 Release:    1
 Summary:    Dapper Linux Default Desktop Backgrounds
 
@@ -108,6 +108,9 @@ make install DESTDIR=$RPM_BUILD_ROOT
 %{_datadir}/xfce4/backdrops/%{bgname}.png
 
 %changelog
+* Sat Nov  3 2018 Matthew Ruffell <msr50@uclive.ac.nz> - 29
+- Updating for DL29
+
 * Sat May  5 2018 Matthew Ruffell <msr50@uclive.ac.nz> - 28
 - Updating for DL28
 
